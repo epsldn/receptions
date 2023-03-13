@@ -7,7 +7,7 @@ const router = express.Router();
 //     res.send("Hello World!");
 // });
 
-router.use("api", apiRoutes);
+router.use("/api", apiRoutes);
 
 router.get("/api/csrf/restore", (req, res) => {
     const csrfToken = req.csrfToken();
