@@ -1,0 +1,30 @@
+#splash-header {
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+#splash-header>* {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#splash-header-left {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#splash-header-logo {
+    width: 50px;
+}
+
+#splash-header-right {
+    font-size: 16px;
+}
+
+#splash-header-right *:hover {
+    transition: color .20s ease-out;
+    color: var(--receptions-hover)
+}
