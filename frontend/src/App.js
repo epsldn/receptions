@@ -1,6 +1,9 @@
+import { BrowserRouter } from "react-router-dom";
+import SplashPage from "./Components/SplashPage/SplashPage";
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <SplashPage />
   );
 }
 
